@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_main_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_login"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_main_get_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_get_token"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_main_refresh_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_refresh_token"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_main_revoke_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_revoke_token"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_main_get_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_get_about"
+            android:textColor="@color/green"/>
+
+        <Button
+            android:id="@+id/btn_main_search_files"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_search_files"
+            android:textColor="@color/blue"/>
+
+        <Button
+            android:id="@+id/btn_main_list_files"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_list_files"
+            android:textColor="@color/blue"/>
+
+        <Button
+            android:id="@+id/btn_main_get_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_get_file"
+            android:textColor="@color/blue"/>
+
+        <Button
+            android:id="@+id/btn_main_download_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_download_file"
+            android:textColor="@color/yellow"/>
+
+        <Button
+            android:id="@+id/btn_main_upload_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_upload_file"
+            android:textColor="@color/yellow"/>
+
+        <Button
+            android:id="@+id/btn_main_move_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_move_file"
+            android:textColor="@color/magenta"/>
+
+        <Button
+            android:id="@+id/btn_main_delete_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_delete_file"
+            android:textColor="@color/magenta"/>
+    </LinearLayout>
+</ScrollView>
