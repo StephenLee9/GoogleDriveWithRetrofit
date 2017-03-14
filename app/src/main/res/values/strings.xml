@@ -1,21 +1,21 @@
 <resources>
-    <!-- 登录页 -->
-    <string name="login_connecting">正在连接Google服务器，请稍候…</string>
-    <string name="login_error">登录Google Drive失败！</string>
-    <string name="login_success">登录Google Drive成功！</string>
+    <!-- Login page -->
+    <string name="login_connecting">Connecting to Google, please wait…</string>
+    <string name="login_error">Signing in to Google Drive failed!</string>
+    <string name="login_success">Signing in to Google Drive success!</string>
 
-    <!-- 主页 -->
+    <!-- Main -->
     <string name="app_name">DriveDemo</string>
-    <string name="main_login">登录Google Drive</string>
-    <string name="main_get_token">获取Token</string>
-    <string name="main_refresh_token">刷新Token</string>
-    <string name="main_revoke_token">注销Token</string>
-    <string name="main_get_about">获取账号信息</string>
-    <string name="main_search_files">搜索文件</string>
-    <string name="main_list_files">获取文件列表</string>
-    <string name="main_get_file">获取文件</string>
-    <string name="main_download_file">下载文件</string>
-    <string name="main_upload_file">上传文件</string>
-    <string name="main_move_file">移动文件</string>
-    <string name="main_delete_file">删除文件</string>
+    <string name="main_login">Sign in</string>
+    <string name="main_get_token">Get token</string>
+    <string name="main_refresh_token">Refresh token</string>
+    <string name="main_revoke_token">Revoke token</string>
+    <string name="main_get_about">Get user info</string>
+    <string name="main_search_files">Search files</string>
+    <string name="main_list_files">List files</string>
+    <string name="main_get_file">Get file</string>
+    <string name="main_download_file">Download</string>
+    <string name="main_upload_file">Upload</string>
+    <string name="main_move_file">Move file</string>
+    <string name="main_delete_file">Delete file</string>
 </resources>
